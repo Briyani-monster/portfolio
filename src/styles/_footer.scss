@@ -1,0 +1,22 @@
+.project-footer-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10rem;
+  background-color: $text-color-light;
+  & .right-footer {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    & li {
+      padding: 5px;
+      background-color: $text-color;
+      border-radius: 5px;
+      & a {
+        text-decoration: none;
+        font-weight: bold;
+        color: $base-background;
+      }
+    }
+  }
+}

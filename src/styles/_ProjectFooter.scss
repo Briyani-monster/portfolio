@@ -1,0 +1,14 @@
+.project-footer {
+  margin-top: auto;
+
+  //   height: 3rem;
+  bottom: 0;
+  & img {
+    height: 12rem;
+    width: 100%;
+  }
+  & p {
+    padding: 10px 0;
+    text-align: center;
+  }
+}

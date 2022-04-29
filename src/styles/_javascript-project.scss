@@ -1,0 +1,42 @@
+.javascriptProject {
+  & h3 {
+    text-align: center;
+    margin: 5rem auto;
+  }
+  & .javascriptProject_main {
+    padding: 0 5rem;
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    &_project {
+      width: 30.3rem;
+      background-color: $project-card;
+      border: 2px solid $project-card;
+      & .img {
+        width: 30rem;
+        & img {
+          width: 100%;
+        }
+      }
+      &_description {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+      }
+      &__links {
+        display: flex;
+        gap: 20px;
+      }
+    }
+    & .project__link {
+      padding: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      background-color: #5f3dc4;
+      border-radius: 5px;
+    }
+  }
+}
