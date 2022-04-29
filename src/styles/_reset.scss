@@ -18,7 +18,9 @@ body {
   color: $text-color;
   position: relative;
 }
-
+a {
+  color: $text-color;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
