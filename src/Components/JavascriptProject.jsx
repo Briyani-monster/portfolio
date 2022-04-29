@@ -14,7 +14,7 @@ const JavascriptProject = () => {
             return (
               <div key={i} className="javascriptProject_main_project">
                 <div className="img">
-                  <img src={pro.image} alt="" />
+                  <img src={pro.image} alt="" loading="lazy" />
                 </div>
                 <div className="javascriptProject_main_project_description">
                   <h1 className="h6">{pro.name}</h1>

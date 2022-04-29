@@ -1,7 +1,6 @@
 import React from "react";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 // images
-import "../images/profilepic.png";
 // resume
 import Resume from "../Resource/GS_ASHISH_Resume.pdf";
 export const Header = () => {

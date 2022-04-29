@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/profilepic.png";
+import logo from "../images/main.webp";
 import wave from "../images/wave.png";
 import Resume from "../Resource/GS_ASHISH_Resume.pdf";
 
@@ -13,7 +13,7 @@ const Hero = () => {
         <h5 className="body-1">
           Hello!{" "}
           <span className="wave">
-            <img src={wave} alt="wave png" />
+            <img src={wave} alt="wave png" loading="lazy" />
           </span>
           I am <span className="dash"></span>
         </h5>
