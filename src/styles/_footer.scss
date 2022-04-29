@@ -12,10 +12,16 @@
       padding: 5px;
       background-color: $text-color;
       border-radius: 5px;
-      & a {
+      & a,
+      a:link,
+      a:visited,
+      a:focus {
         text-decoration: none;
         font-weight: bold;
-        color: $base-background;
+        color: $base-background !important;
+      }
+      a:hover {
+        background-color: transparent;
       }
     }
   }

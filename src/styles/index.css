@@ -881,10 +881,17 @@ a:visited {
   border-radius: 5px;
 }
 
-.project-footer-main .right-footer li a {
+.project-footer-main .right-footer li a,
+.project-footer-main .right-footer li a:link,
+.project-footer-main .right-footer li a:visited,
+.project-footer-main .right-footer li a:focus {
   text-decoration: none;
   font-weight: bold;
-  color: #171c28;
+  color: #171c28 !important;
+}
+
+.project-footer-main .right-footer li a:hover {
+  background-color: transparent;
 }
 
 @media (max-width: 64em) {
