@@ -1,4 +1,3 @@
-import { keys } from "@mui/system";
 import React from "react";
 import { skills } from "../data";
 const Aboutme = () => {
@@ -25,9 +24,9 @@ const Aboutme = () => {
           </p>
           <div className="skills mt-4">
             <h3 className="h5 mb-2">CURRENT SKILL SETS</h3>
-            {Object.keys(skills).map((keys) => {
+            {Object.keys(skills).map((keys, i) => {
               return (
-                <div className="skill ml-2 ">
+                <div key={i} className="skill ml-2 ">
                   <span className="h6 mr-5p">
                     {keys} {">"}{" "}
                   </span>
