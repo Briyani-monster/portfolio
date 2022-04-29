@@ -19,7 +19,16 @@ body {
   position: relative;
 }
 a {
-  color: $text-color;
+  color: $text-color !important;
+}
+a:link {
+  color: $text-color !important;
+}
+a:visited {
+  color: $text-color !important;
+}
+a:focus {
+  color: $text-color Im !important;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
